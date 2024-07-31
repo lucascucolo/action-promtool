@@ -1,4 +1,4 @@
-FROM docker-remotes.artifactory.prod.aws.cloud.ihf/alpines:latest
+FROM docker-remotes.artifactory.prod.aws.cloud.ihf/alpine:latest
 
 RUN ["/bin/sh", "-c", "apk add --update --no-cache bash ca-certificates curl git jq openssh"]
 
